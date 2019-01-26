@@ -1,0 +1,82 @@
+/* --- COMMON --- */
+body {
+    background-color: #f8f8f8;
+}
+
+/* --- MENU --- */
+.menu a {
+    font: bold 15px serif, Helvetica;
+    color: royalblue;
+}
+
+.menu li {
+    list-style: none;
+}
+
+
+/* --- ITEM PAGE ---*/
+
+/* headers */
+.description_header {
+    font: 18px 400;
+    color: black;
+    background-color: #eaeaea;
+}
+
+/* text of the short description*/
+.short_description {
+    font: 14px italic;
+    color: #707070;
+    line-height: 16px;
+}
+
+/* text of the full description */
+.full_description {
+    font: 16px 400 sans-serif, Helvetica;
+    color: #484343;
+    line-height: 24px;
+    text-align: left;
+}
+
+/* features list */
+.item_features {
+    font: 16px sans-serif, Helvetica;
+    color: steelblue;
+    list-style: square outside;
+}
+
+.item_image {
+    width: 250px;
+    border: 1px solid DodgerBlue;
+}
+
+/* --- CONTACTS PAGE --- */
+.text_input {
+    min-height: 15px;
+    width: 150px
+}
+
+input::placeholder {
+    font: 13px sans-serif, Helvetica;
+    color: lightslategrey;
+}
+
+.contacts_form {
+    display: block;
+    min-width: 100px;
+}
+
+textarea {
+    width: 150px;
+}
+
+/* --- CATALOG PAGE --- */
+
+.catalog li {
+    list-style: none;
+    height: 150px;
+}
+
+.catalog li a img {
+    height: 70%;
+}
