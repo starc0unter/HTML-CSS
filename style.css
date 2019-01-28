@@ -1,0 +1,149 @@
+/* --- COMMON --- */
+body {
+    background-color: #f8f8f8;
+}
+
+footer {
+    font: 18px serif Helvetica;
+    color: darkblue;
+}
+
+/* --- MENU --- */
+.menu:hover .menu_a {
+    color: royalblue;
+}
+
+.menu_a {
+    font: bold 18px serif, Helvetica;
+    color: darkblue;
+}
+
+.menu_li {
+    list-style: none;
+}
+
+
+/* --- ITEM PAGE ---*/
+
+/* headers */
+.description_header {
+    font: 18px 400;
+    color: black;
+    background-color: #eaeaea;
+}
+
+/* text of the short description*/
+.short_description {
+    font: 14px;
+    color: #707070;
+    line-height: 16px;
+}
+
+/* text of the full description */
+.full_description {
+    font: 16px 400 sans-serif, Helvetica;
+    color: #484343;
+    line-height: 24px;
+    text-align: left;
+}
+
+/* features list */
+.item_features {
+    font: 16px sans-serif, Helvetica;
+    color: steelblue;
+    list-style: square outside;
+}
+
+.item_image {
+    width: 250px;
+    border: 1px solid DodgerBlue;
+}
+
+/* --- CONTACTS PAGE --- */
+.text_input {
+    min-height: 18px;
+    min-width: 150px;
+    min-height: 25px;
+    text-transform: capitalize;
+}
+
+.email:focus {
+    color: darkblue;
+    background-color: lightblue;
+}
+
+input::placeholder {
+    font: 16px sans-serif, Helvetica;
+    color: lightslategrey;
+}
+
+.contacts_form {
+    display: block;
+    min-width: 150px;
+    min-height: 25px;
+}
+
+.full_feedback {
+    min-width: 300px;
+    min-height: 150px;
+}
+
+.contacts_button {
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+/* --- CATALOG PAGE --- */
+
+.catalog_li {
+    list-style: none;
+    height: 150px;
+}
+
+.catalog_img {
+    height: 70%;
+}
+
+.product_name::first-letter {
+    font-size: 20px;
+    color: darkblue;
+}
+
+.product_link {
+    text-decoration: none;
+}
+
+
+/* --- ITEM TABLE STYLE (Used for GoodsPageTemplate) --- */
+.features_table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-color: #ccc;
+}
+
+.features_table td {
+    font-family: Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 10px 5px;
+    border-style: solid;
+    border-width: 1px;
+    overflow: hidden;
+    word-break: normal;
+    border-color: #f8f8f8;
+    color: #333;
+}
+
+.f_text {
+    font-weight: bold;
+    border-color: inherit;
+    vertical-align: middle;
+}
+
+.features_name {
+    text-align: right;
+}
+
+.features_value {
+    text-align: left;
+}
