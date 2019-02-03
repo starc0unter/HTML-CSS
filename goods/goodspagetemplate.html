@@ -4,42 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <link href="../style.css" rel="stylesheet">
-    <title>Товары</title>
 </head>
 
-<body>
+<div class="container">
+    <div class="header">
+        <title>Товары</title>
 
-    <ul class="menu">
-        <li><a href="../index.html">Главная</a></li>
-        <li><a href="../contacts.html">Контакты</a></li>
-        <li><a href="../catalog.html">Каталог</a></li>
-    </ul>
+        <div class="logo">
+            <a href="../index.html">
+                <img src="../logo.png" alt="ХорМар">
+            </a>
+        </div>
 
-    <hr>
+        <ul class="menu">
+            <li class="menu_li"><a class="menu_a" href="../index.html">Главная</a></li>
+            <li class="menu_li"><a class="menu_a" href="../contacts.html">Контакты</a></li>
+            <li class="menu_li"><a class="menu_a" href="../catalog.html">Каталог</a></li>
+        </ul>
+    </div>
 
-    <h2 class="description_header">Описание товара</h2>
+    <div class="content">
+        <h2 class="description_header">Описание товара</h2>
+        <div class="description">
+            <div class="logo">
+                <a href="images/" target="_blank"><img class="item_image" src="images/" alt="Товар"></a>
+            </div>
 
-    <a href="images/" target="_blank"><img class="item_image" src="images/" alt="Товар"></a>
+            <div class="info">
+                <div class="short_description">
+                    <p>Текст краткого описания</p>
+                </div>
+                <div><button class="buy">Купить</button></div>
+            </div>
+        </div>
 
-    <p class="short_description">Текст краткого описания</p>
+        <h3 class="description_header">Характеристики товара</h3>
 
-    <h3 class="description_header">Характеристики товара</h3>
+        <!--        <table class="features_table" style="undefined;table-layout: fixed; width: 521px">
+            <colgroup>
+                <col style="width: 268px">
+                <col style="width: 253px">
+            </colgroup>
+            <tr>
+                <td class="f_text features_name">Диагональ экрана</td>
+                <td class="f_text features_value"></td>
+            </tr>
+            <tr>
+                <td class="f_text features_name">Максимальное разрешение</td>
+                <td class="f_text features_value"></td>
+            </tr>
+            <tr>
+                <td class="f_text features_name">Тип подсветки матрицы</td>
+                <td class="f_text features_value"></td>
+            </tr>
+            <tr>
+                <td class="f_text features_name">Технология изготовления матрицы</td>
+                <td class="f_text features_value"></td>
+            </tr>
+            <tr>
+                <td class="f_text features_name">Соотношение сторон</td>
+                <td class="f_text features_value"></td>
+            </tr>
+        </table>-->
 
-    <ul class="item_features">
-        <li>Диагональ экрана:</li>
-        <li>Максимальное разрешение: </li>
-        <li>Тип подсветки матрицы: </li>
-        <li>Технология изготовления матрицы: </li>
-        <li>Соотношение сторон: </li>
-    </ul>
 
-    <h3 class="description_header">Подробное описание</h3>
-    <p class="full_description">Текст подробного описания товара</p>
+        <ul class="item_features">
+            <li>Диагональ экрана:</li>
+            <li>Максимальное разрешение: </li>
+            <li>Тип подсветки матрицы: </li>
+            <li>Технология изготовления матрицы: </li>
+            <li>Соотношение сторон: </li>
+        </ul>
 
-    <hr>
-    <footer>
-        <p>Все права защищены <sup>&copy;</sup></p>
-    </footer>
-</body>
+
+        <h3 class="description_header">Подробное описание</h3>
+        <p class="full_description">Текст подробного описания товара</p>
+    </div>
+
+    <div class="footer">
+        Все права защищены &copy;
+    </div>
+</div>
 
 </html>
